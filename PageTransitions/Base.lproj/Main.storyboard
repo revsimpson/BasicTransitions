@@ -50,13 +50,22 @@
                                     <action selector="presentViewControllerClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="G6v-6Z-vsC"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FkV-r4-00M">
+                                <rect key="frame" x="90.5" y="386" width="194" height="30"/>
+                                <state key="normal" title="Load VC without StoryBoard"/>
+                                <connections>
+                                    <action selector="loadWithoutStoryboard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JxY-CH-sUB"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="FkV-r4-00M" firstAttribute="top" secondItem="Xtr-v8-hq7" secondAttribute="bottom" constant="28" id="COf-on-evy"/>
                             <constraint firstItem="MFv-Da-akP" firstAttribute="top" secondItem="qfu-5B-ZSs" secondAttribute="bottom" constant="24" id="Cyb-UE-UyS"/>
                             <constraint firstItem="Xtr-v8-hq7" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="HNT-Hi-RJJ"/>
                             <constraint firstItem="qfu-5B-ZSs" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Na0-XX-IVh"/>
                             <constraint firstItem="wXP-lL-X41" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="110" id="QQT-p9-BeP"/>
+                            <constraint firstItem="FkV-r4-00M" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ZEE-hO-4Jn"/>
                             <constraint firstItem="wXP-lL-X41" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="86" id="bGs-p0-cuP"/>
                             <constraint firstItem="qfu-5B-ZSs" firstAttribute="top" secondItem="wXP-lL-X41" secondAttribute="bottom" constant="24" id="dGc-9s-OJ1"/>
                             <constraint firstItem="MFv-Da-akP" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="mZ3-36-hwm"/>

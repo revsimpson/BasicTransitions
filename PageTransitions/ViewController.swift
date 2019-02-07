@@ -48,5 +48,8 @@ class ViewController: UIViewController, TextTransfer {
          let vc = self.storyboard?.instantiateViewController(withIdentifier: "ViewController2") as! ViewController2
         self.present(vc, animated: true, completion: nil)
     }
+    @IBAction func loadWithoutStoryboard(_ sender: Any) {
+        self.navigationController!.pushViewController(TestViewController(nibName: "TestViewController", bundle: nil), animated: true)
+    }
 }
 

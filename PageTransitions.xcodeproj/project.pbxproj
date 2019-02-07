@@ -12,6 +12,8 @@
 		173EE41721E4C41B0025D05B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 173EE41521E4C41B0025D05B /* Main.storyboard */; };
 		173EE41921E4C41C0025D05B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 173EE41821E4C41C0025D05B /* Assets.xcassets */; };
 		173EE41C21E4C41C0025D05B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 173EE41A21E4C41C0025D05B /* LaunchScreen.storyboard */; };
+		17C3039B220C5BE60013CF78 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C30399220C5BE60013CF78 /* TestViewController.swift */; };
+		17C3039C220C5BE60013CF78 /* TestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17C3039A220C5BE60013CF78 /* TestViewController.xib */; };
 		17E8C32021E4C5D900FB721C /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E8C31F21E4C5D900FB721C /* ViewController3.swift */; };
 		17E8C32221E4D0F900FB721C /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E8C32121E4D0F900FB721C /* ViewController2.swift */; };
 /* End PBXBuildFile section */
@@ -24,6 +26,8 @@
 		173EE41821E4C41C0025D05B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		173EE41B21E4C41C0025D05B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		173EE41D21E4C41C0025D05B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17C30399220C5BE60013CF78 /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		17C3039A220C5BE60013CF78 /* TestViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestViewController.xib; sourceTree = "<group>"; };
 		17E8C31F21E4C5D900FB721C /* ViewController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
 		17E8C32121E4D0F900FB721C /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -66,6 +70,8 @@
 				173EE41D21E4C41C0025D05B /* Info.plist */,
 				17E8C31F21E4C5D900FB721C /* ViewController3.swift */,
 				17E8C32121E4D0F900FB721C /* ViewController2.swift */,
+				17C30399220C5BE60013CF78 /* TestViewController.swift */,
+				17C3039A220C5BE60013CF78 /* TestViewController.xib */,
 			);
 			path = PageTransitions;
 			sourceTree = "<group>";
@@ -130,6 +136,7 @@
 			files = (
 				173EE41C21E4C41C0025D05B /* LaunchScreen.storyboard in Resources */,
 				173EE41921E4C41C0025D05B /* Assets.xcassets in Resources */,
+				17C3039C220C5BE60013CF78 /* TestViewController.xib in Resources */,
 				173EE41721E4C41B0025D05B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -141,6 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17C3039B220C5BE60013CF78 /* TestViewController.swift in Sources */,
 				173EE41421E4C41B0025D05B /* ViewController.swift in Sources */,
 				17E8C32221E4D0F900FB721C /* ViewController2.swift in Sources */,
 				173EE41221E4C41B0025D05B /* AppDelegate.swift in Sources */,
